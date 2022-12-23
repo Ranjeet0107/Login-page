@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    
+    <script src="login.js"></script>
+</head>
+<body>
+    <div id="welcompage" class="form">
+        <h1>Welcome to the Social media side</h1>
+        <button class="btn" id="registerbtn" onclick="myFunction()">Register</button>
+        <button class="btn" id="loginbtn" onclick="myFunction2()">Login</button>
+    </div>
+
+    <div id="loginpage" class="form">
+        <div id="Email">
+            <label for="Email">Enter your email</label>
+            <input type="Email" class="form" value="Email" Required><hr>
+        </div>
+
+        <div id="password">
+            <label for="Password">Enter Password </label>
+        <input type="password" class="form" Required><hr>
+        </div>
+        <div>
+            <button class="btn" id="submit1">Submit</button>
+        </div>
+       
+    </div>
+
+    <div id="registerpage" class="form">
+        <div id="name">
+            <label for="name">Enter your Name</label>
+            <input type="text"class="form"  value="Name" Required><hr>
+        </div>
+        <div id="Email">
+            <label for="Email">Enter your email</label>
+            <input type="Email" class="form" value="Email" Required><hr>
+        </div>
+        <div id="mobile">
+            <label for="mobile Number">Mobile Number</label>
+            <input type="tel"class="form"  value="Mobile Numbre" Required><hr>
+        </div>
+        <div id="dob">
+            <label for="dob">Date of Birth</label>
+            <input type="date" class="form"  name="dob" id="dateofbirth" >
+
+        </div>
+        <div id="Gender" class="form"><hr>
+            <label for="Email" >Gender   : </label>
+            <label for="Male">Male</label>
+            <input type="radio" value="Male" >
+            <label for="Female">Female</label>
+            <input type="radio" value="Female"><hr>
+        </div>
+        <div>
+            <label for="occupation">Occupation</label>
+            <select name="occupation" id="occupation" class="form">
+
+                <option >Select</option>
+                <option >Student</option>
+                <option >job</option>
+                <option >formar</option>
+                <option >other</option>
+              </select>
+              <div>
+                <button class="btn" id="submit2">Submit</button>
+              </div>
+            
+
+        </div>
+    </div>
+</body>
+</html>
